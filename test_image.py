@@ -3,7 +3,7 @@ from pathlib import Path
 
 # --- 1. DEFINE PATHS ---
 # Path to the folder where your runs are saved
-RUNS_DIR = Path(__file__).resolve().parents[1] / 'runs'
+RUNS_DIR = Path(__file__).resolve().parent / 'runs'
 
 # Path to your specific training run (change this if your folder is named differently)
 RUN_NAME = 'crack_detector_run_1'
