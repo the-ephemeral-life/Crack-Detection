@@ -8,7 +8,7 @@ RUNS_DIR = Path(__file__).resolve().parent / 'runs'
 
 # Path to your specific training run
 RUN_NAME = 'crack_detector_run_1'
-BEST_MODEL_PATH = RUNS_DIR / 'detect' / RUN_NAME / 'weights' / 'best.pt'
+BEST_MODEL_PATH = RUNS_DIR / RUN_NAME / 'weights' / 'best.pt'
 
 # --- 2. LOAD THE TRAINED MODEL ---
 # Check if the model file exists
