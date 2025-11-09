@@ -7,7 +7,7 @@ from ultralytics import YOLO
 
 # --- CONFIGURATION ---
 # Load your trained model
-MODEL_PATH = 'runs/detect/crack_detector_run_1/weights/best.pt'
+MODEL_PATH = 'runs/crack_detector_run_1/weights/best.pt'
 HOST_IP = '0.0.0.0'  # Listen on all available network interfaces
 PORT = 9999
 # ---------------------
